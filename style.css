@@ -1,0 +1,43 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: black;
+    padding: 4px;
+}
+
+nav > p{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0em;
+}
+
+header h1, header h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 2;
+    margin-top: 2em;
+}
